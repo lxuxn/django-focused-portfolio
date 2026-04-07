@@ -368,7 +368,7 @@ section { padding: 6rem 2.5rem; }
 }
 
 .portrait-box::before {
-  content: 'CG';
+  content: 'CARL';
   font-family: var(--ff-head);
   font-size: 6rem;
   font-weight: 800;
