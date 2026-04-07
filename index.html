@@ -5,20 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Carl — Web Developer">
   <title>Carl — Web Developer</title>
-
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Lora:ital@0;1&display=swap" rel="stylesheet">
 
-  <!-- Styles -->
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-  <!-- ══════════════════════════════════════════════════════
-       NAVIGATION
-  ══════════════════════════════════════════════════════ -->
   <nav>
     <a href="#" class="nav-logo">carl<span>.</span>dev</a>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
@@ -31,9 +25,6 @@
     </ul>
   </nav>
 
-  <!-- ══════════════════════════════════════════════════════
-       HERO
-  ══════════════════════════════════════════════════════ -->
   <section id="hero">
     <div class="hero-bg-grid"></div>
     <div class="hero-orb"></div>
@@ -52,7 +43,6 @@
     </div>
 
     <div class="hero-right reveal">
-      <!-- Terminal -->
       <div class="terminal">
         <div class="terminal-bar">
           <span class="dot dot-r"></span>
@@ -79,7 +69,6 @@
         </div>
       </div>
 
-      <!-- Stats -->
       <div class="stat-row">
         <div class="stat-card">
           <div class="stat-num">5+</div>
@@ -101,9 +90,6 @@
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════
-       ABOUT
-  ══════════════════════════════════════════════════════ -->
   <section id="about">
     <div class="about-portrait reveal">
       <div class="portrait-box"></div>
@@ -140,9 +126,6 @@
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════
-       PROJECTS
-  ══════════════════════════════════════════════════════ -->
   <section id="projects">
     <div class="projects-header reveal">
       <div>
@@ -150,13 +133,9 @@
         <h2>Projects that<br>ship.</h2>
       </div>
     </div>
-    <!-- Populated by js/render.js -->
     <div class="project-grid reveal" id="projectGrid"></div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════
-       SKILLS
-  ══════════════════════════════════════════════════════ -->
   <section id="skills">
     <div class="section-label reveal">Skills &amp; Tools</div>
     <h2 class="reveal">What I<br>work with.</h2>
@@ -164,43 +143,31 @@
     <div class="skills-layout">
       <div class="reveal">
         <div class="skill-group-label">Backend / Databases</div>
-        <!-- Populated by js/render.js -->
         <div id="skillsBackend"></div>
-
-        <div class="skill-group-label skill-spacer">DevOps / Tools</div>
-        <!-- Populated by js/render.js -->
+        <div class="skill-group-label sskill-spacer">DevOps / Tools</div>
         <div id="skillsDevops"></div>
       </div>
 
       <div class="reveal">
         <div class="skill-group-label">Frontend / Design</div>
-        <!-- Populated by js/render.js -->
         <div id="skillsFrontend"></div>
 
         <div class="skill-group-label skill-spacer">AI / Emerging</div>
-        <!-- Populated by js/render.js -->
         <div id="skillsAi"></div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════
-       EXPERIENCE
-  ══════════════════════════════════════════════════════ -->
   <section id="experience">
     <div class="section-label reveal">Career</div>
     <h2 class="reveal">Experience.</h2>
 
     <div class="exp-layout">
-      <!-- Populated by js/render.js -->
       <div class="exp-nav reveal" id="expNav"></div>
       <div class="reveal" id="expEntries"></div>
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════════════════════
-       CONTACT
-  ══════════════════════════════════════════════════════ -->
   <section id="contact">
     <div class="section-label reveal" style="justify-content:center;">Say Hello</div>
     <h2 class="reveal">Let's build<br>something <em>great.</em></h2>
@@ -215,7 +182,6 @@
     </div>
   </section>
 
-  <!-- Scripts — data first, then renderer, then interactions -->
   <script src="js/data.js"></script>
   <script src="js/render.js"></script>
   <script src="js/main.js"></script>
