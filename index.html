@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carl G. — Django Developer & Technical Graphics Designer based in Zambales, Philippines.">
+  <title>Carl G. — Django Developer & Technical Designer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Lora:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════════════════ -->
+  <nav>
+    <a href="#" class="nav-logo">carl<span>.</span>dev</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Let's Talk →</a></li>
+    </ul>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb"></div>
+
+    <div class="hero-left">
+      <div class="hero-tag">Available for new projects</div>
+      <h1>Django<br>Dev &amp;<br><em>Designer</em></h1>
+      <p class="hero-desc">
+        Building <strong>full-stack web applications</strong> with Django, WooCommerce,
+        and modern front-end stacks. Based in <strong>Zambales, Philippines</strong> — working globally.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work →</a>
+        <a href="#contact"  class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-right reveal">
+      <!-- Terminal -->
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot dot-r"></span>
+          <span class="dot dot-y"></span>
+          <span class="dot dot-g"></span>
+          <span class="terminal-bar-title">~/projects/portfolio</span>
+        </div>
+        <div class="terminal-body">
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd">python manage.py about carl</span></div>
+          <div class="t-output">Loading developer profile...</div>
+          <div class="t-output">&nbsp;</div>
+          <div class="t-output">Name:     <span class="t-hl2">Carl G.</span></div>
+          <div class="t-output">Role:     <span class="t-hl">Django Developer</span></div>
+          <div class="t-output">Stack:    <span class="t-hl">Django · WooCommerce · React</span></div>
+          <div class="t-output">OS:       <span class="t-hl2">Ubuntu 24.04 LTS ✓</span></div>
+          <div class="t-output">Location: <span class="t-hl">Zambales, PH 🌏</span></div>
+          <div class="t-output">&nbsp;</div>
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd">git log --oneline -3</span></div>
+          <div class="t-output">a3f21c4 feat: client task management app</div>
+          <div class="t-output">88de012 feat: woocommerce pdf invoice system</div>
+          <div class="t-output">c991ab7 feat: youtube tab manager extension</div>
+          <div class="t-output">&nbsp;</div>
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd"><span class="cursor">|</span></span></div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stat-row">
+        <div class="stat-card">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">30+</div>
+          <div class="stat-label">Projects Shipped</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Active Builds</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Cups of Coffee</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="about-portrait reveal">
+      <div class="portrait-box"></div>
+      <div class="portrait-accent"></div>
+    </div>
+
+    <div class="about-text reveal">
+      <div class="section-label">About Me</div>
+      <h2>Builder at<br>heart, coder<br>by craft</h2>
+      <p>
+        I'm a <strong>Technical Graphics Designer and Django Developer</strong> at ALSO Holding AG,
+        with a background spanning WordPress/WooCommerce development, front-end engineering, and UI design.
+      </p>
+      <p>
+        Currently building <em>full-stack Django applications</em> — from client task management portals
+        to developer training systems. I care about clean architecture, thoughtful UX, and software that
+        actually ships.
+      </p>
+      <p>
+        When I'm not coding, I'm exploring AI inference on local hardware, thinking about renewable energy
+        in the Philippines, or deep-diving into evolutionary biology and cosmology.
+      </p>
+      <div class="tags">
+        <span class="tag hl">Django</span>
+        <span class="tag hl">Python</span>
+        <span class="tag hl">WordPress</span>
+        <span class="tag">WooCommerce</span>
+        <span class="tag">React</span>
+        <span class="tag">Figma</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">Nginx</span>
+        <span class="tag">Ubuntu</span>
+        <span class="tag">Photoshop</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       PROJECTS
+  ══════════════════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="projects-header reveal">
+      <div>
+        <div class="section-label">Selected Work</div>
+        <h2>Projects that<br>ship.</h2>
+      </div>
+    </div>
+    <!-- Populated by js/render.js -->
+    <div class="project-grid reveal" id="projectGrid"></div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       SKILLS
+  ══════════════════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="section-label reveal">Skills &amp; Tools</div>
+    <h2 class="reveal">What I<br>work with.</h2>
+
+    <div class="skills-layout">
+      <div class="reveal">
+        <div class="skill-group-label">Backend / Databases</div>
+        <!-- Populated by js/render.js -->
+        <div id="skillsBackend"></div>
+
+        <div class="skill-group-label skill-spacer">DevOps / Tools</div>
+        <!-- Populated by js/render.js -->
+        <div id="skillsDevops"></div>
+      </div>
+
+      <div class="reveal">
+        <div class="skill-group-label">Frontend / Design</div>
+        <!-- Populated by js/render.js -->
+        <div id="skillsFrontend"></div>
+
+        <div class="skill-group-label skill-spacer">AI / Emerging</div>
+        <!-- Populated by js/render.js -->
+        <div id="skillsAi"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       EXPERIENCE
+  ══════════════════════════════════════════════════════ -->
+  <section id="experience">
+    <div class="section-label reveal">Career</div>
+    <h2 class="reveal">Experience.</h2>
+
+    <div class="exp-layout">
+      <!-- Populated by js/render.js -->
+      <div class="exp-nav reveal" id="expNav"></div>
+      <div class="reveal" id="expEntries"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="section-label reveal" style="justify-content:center;">Say Hello</div>
+    <h2 class="reveal">Let's build<br>something <em>great.</em></h2>
+    <p class="contact-desc reveal">
+      Open to freelance projects, full-time remote opportunities, and interesting collaborations.
+      Based in the Philippines, working globally.
+    </p>
+    <div class="contact-links reveal">
+      <a href="mailto:carl@example.com" class="contact-link">✉ Email</a>
+      <a href="https://github.com/"     class="contact-link" target="_blank" rel="noopener">◈ GitHub</a>
+      <a href="https://linkedin.com/"   class="contact-link" target="_blank" rel="noopener">◉ LinkedIn</a>
+      <a href="assets/carl-cv.pdf"      class="contact-link" download>↓ Download CV</a>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer>
+    <span>© 2026 Carl G. — Zambales, Philippines</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </footer>
+
+  <!-- Scripts — data first, then renderer, then interactions -->
+  <script src="js/data.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
