@@ -83,7 +83,7 @@ const PORTFOLIO_DATA = {
   experience: [
     {
       id: 'also',
-      company: 'ALSO Holding AG',
+      company: 'ALSO',
       period: 'Current',
       role: 'Technical Graphics Designer',
       location: 'Remote',
@@ -100,7 +100,7 @@ const PORTFOLIO_DATA = {
       company: 'Freelance',
       period: 'Ongoing',
       role: 'Django & WP Developer',
-      location: 'Zambales, PH',
+      location: 'PH',
       duties: [
         'Built a full-stack Django client task management app with kanban, ticketing, and invoicing on Hetzner.',
         'Developed a WooCommerce PDF invoice system for LME Coaching Pty Ltd with custom template design.',
